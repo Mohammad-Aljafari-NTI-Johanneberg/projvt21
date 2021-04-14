@@ -1,0 +1,85 @@
+<!--doctype html-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Personal Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <section>
+        <!--navigation------------------------->
+        <div class="back"></div>
+        <nav>
+            <a href="/index.html">Home</a></li>
+            <a href="/About.html" class="active">About</a></li>
+            <a href="/services.html">Services</a></li>
+            <a href="/portfolio.html">Portfolio</a></li>
+            <a href="/experience.html">Experiance</a></li>
+            <a href="/contact.html">Contact</a></li>
+        </nav>
+    </section>
+    <!--h1 about me text----------------------->
+    <div class="aboutme-container">
+        <h1 class="aboutme">About Me</h1>
+        <p class="about-me-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Suscipit illo debitis consectetur pariatur non, aut mollitia id
+            libero iste doloremque dolor, dolores laborum soluta ea eaque nostrum,
+            at culpa nesciunt. <br><br> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Suscipit illo debitis consectetur pariatur non, aut mollitia id
+            libero iste doloremque dolor, dolores laborum soluta ea eaque nostrum,
+            at culpa nesciunt. <br><br> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Suscipit illo debitis consectetur pariatur non, aut mollitia id
+            libero iste doloremque dolor, dolores laborum soluta ea eaque nostrum,
+            at culpa nesciunt.
+        </p>
+    </div>
+    <div class="myphoto">
+        <img src="img/myphoto.png" width="465px" height="627px" alt="me">
+    </div>
+
+    </section>
+    <footer>
+        <!--heading-->
+        <p>Check out my social media!</p>
+        <!--paragraph-->
+        <p>If you like my work, feel free to check out my social media!</p>
+        <!--social-->
+        <div class="social-icons">
+            <a href="https://www.snapchat.com/add/salkanovic99"><i class="fa fa-snapchat"></i></a>
+            <a href="https://www.instagram.com/mohammed_salkanovic/"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook-f"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+        <!--copyright-->
+
+        <p class="copyright">&copy; Copyright by Mohammad Aljafari</p>
+    </footer>
+    <!--social-attach-bar-->
+    <div class="social">
+        <a href="https://www.snapchat.com/add/salkanovic99"><i class="fa fa-snapchat"></i></a>
+        <a href="https://www.instagram.com/mohammed_salkanovic/"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-facebook-f"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+    </div>
+
+    <!--JQUery-------------------->
+    <script type="text/javascript" src="js/JQuery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.toggle').click(function () {
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+    </script>
+</body>
+
+</html>
